@@ -1,0 +1,242 @@
+.sidebar .logo {
+  background-color: white;
+}
+
+.sidebar .logo .simple-text {
+  text-transform: none;
+  padding: 5px 0px;
+  display: block;
+  font-size: 22px;
+  color: #504646;
+  text-align: center;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.navbar .navbar-brand {
+  font-size: 30px;
+  margin-top: 20px;
+  color: blue;
+}
+
+.navbar-right {
+  margin-top: 15px;
+}
+.content-custom{
+background-color: white;
+}
+.container-fluid {
+  height: 80;
+}
+
+body{
+  background-color: white;
+}
+.main-panel{
+  width: calc(100% - 82px);
+  height: auto;
+}
+
+.navbar{
+  margin-bottom: 0;
+}
+
+.sidebar{
+  width: 82px;
+  transition: 1s;
+  white-space: nowrap; 
+  /*z-index: 99999;*/
+
+}
+
+.sidebar .sidebar-wrapper {
+  background-color: white;
+  padding-bottom: 0px; 
+  width: 82px;
+  transition: 1s;
+  overflow-x: hidden;       
+}
+
+.tooltip{
+position: absolute;
+z-index: 99999999999999999999999999999999999999999999;
+transform: translateX(-50%); 
+}
+
+.tooltip .tooltip-inner{
+background-color: red;
+position: relative;
+z-index: 99999999999999999999999999999999999999999999;
+}
+
+
+/*.sidebar .nav i {
+  font-size: 45px;
+  float: right;
+  line-height: 20px;
+  width: 30px;
+  text-align: center;
+  color: #00b0ff;
+  position: relative;
+  bottom: 36px;
+  left: 22px;
+}*/
+
+.sidebar .nav p {
+  margin: 0;
+  line-height: 20px;
+  font-size: 12px;
+  font-weight: 600;
+  text-transform: uppercase;
+  /* margin-left: 13px; */
+  padding-left: 13px;
+}
+
+.sidebar .nav p.active {
+  background-color: #d7d7d7;
+}
+
+.icon-sidebar{
+  height: 53px;
+}
+
+.span-text-sidebar{
+padding-left: 14px;
+}
+
+.sidebar .nav li > a {
+  margin: 0px;
+}
+
+.tab-custom{
+  border-radius: 10px !important;
+  border: 1px solid !important;
+  /*background-color: #1064A5 !important;*/
+  color: white !important;
+}
+
+.tab-custom-report{
+  border-radius: 10px !important;
+  border: 1px solid !important;
+  background-color: #1064A5 !important;
+  color: white !important;
+}
+
+.nav-tabs{
+  border-bottom: none;
+}
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+  background-color: white !important;
+  /*color: #555 !important;*/
+}
+
+.nav-report>li.active>a, .nav-report>li.active>a:focus, .nav-report>li.active>a:hover{
+  background-color: white !important;
+  color: #555 !important;
+}
+
+.navbar-col-12{
+z-index: 1; background: linear-gradient(to right, white, #1064A5);
+}
+
+.navbar-col-4-white{
+background-color: white;
+height: 7px;
+}
+
+.navbar-col-4-yellow{
+background-color: yellow; 
+height: 7px;
+}
+
+.navbar-col-4-blue{
+background-color: #1064A5; 
+height: 7px;
+}
+
+.nav-tabs>li.active{
+pointer-events: none;
+}
+
+/*LOADING OVERLAY*/
+#loading-overlay{
+display: none;
+}
+
+#loading-overlay.active{
+display: block;
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  z-index: 99999;
+  background: #00000096;
+  padding-top: 20%;
+}
+
+
+.spinner {
+margin: 100px auto;
+width: 50px;
+height: 40px;
+text-align: center;
+font-size: 10px;
+}
+
+.spinner > div {
+background-color: #ff6411;
+height: 100%;
+width: 6px;
+display: inline-block;
+
+-webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+-webkit-animation-delay: -1.1s;
+animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+-webkit-animation-delay: -1.0s;
+animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+-webkit-animation-delay: -0.9s;
+animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+-webkit-animation-delay: -0.8s;
+animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+0%, 40%, 100% { -webkit-transform: scaleY(0.4) }  
+20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+0%, 40%, 100% { 
+  transform: scaleY(0.4);
+  -webkit-transform: scaleY(0.4);
+}  20% { 
+  transform: scaleY(1.0);
+  -webkit-transform: scaleY(1.0);
+}
+}
+
+#divMon {
+  margin: 20px 0 0 0;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn:focus,.btn:active {
+outline: none !important;
+box-shadow: inset 0 -1px 0 #ddd !important;
+}
+

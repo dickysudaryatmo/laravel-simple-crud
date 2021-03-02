@@ -1,0 +1,1509 @@
+.card .footer {
+    padding: 5px 5px 15px 15px;
+}
+
+.card .header{
+	border-radius: 4px 4px 0px 0px;
+}
+
+.no-padding-right{
+	padding-right: 0px;
+}
+
+.dark-blue{
+	background: #121f33;
+	border-top-left-radius: 10px !important;
+	border-bottom-left-radius: 10px !important;
+    height: 658px;
+}
+
+/*	MEDIA CSS	*/
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 360px) 
+and (max-device-width : 410px) {
+/* Styles */
+	body{
+		background-size: auto 100%;
+	}
+
+	.pull-right{
+		float:none !important;
+	}
+
+	.dark-blue{
+		border-top-left-radius: 10px !important;
+		border-top-right-radius: 10px !important;
+		border-bottom-left-radius: 0px !important;
+		height: 250px;
+	}
+
+	.g-recaptcha iframe{
+		position: relative;
+	    left: -6px;
+	}
+
+	.setting-btn-logout {
+	    margin-left: 0px;
+	    top: -9px;
+	}
+
+	.caption-text-a>a {
+	    font-size: 16px;
+	}
+
+	.caption-text-a>a>i {
+	    margin-right: 12px;
+	}
+
+	.caption-text {
+	    margin-top: 10px;
+        font-size: 17px;
+	}
+
+	.setting-btn-edit {
+		margin-left: 0px;
+	}	
+
+	.btn-plus {
+    	float: none;
+	}
+
+	.btn-promo-add{
+	    margin-bottom: 0px !important; 
+	    top: 10px !important;
+    	position: relative;
+	}
+
+	.btn-user-report{
+		margin-top: 10px;
+	}
+
+	.carousel {
+	    height: 251px;
+	}
+
+	.carousel-inner h3 {
+		margin: 2% 0% 0% auto;
+		font-size: 25px;
+	}
+
+	.col-dash-right{
+		border-left: none;
+	}
+
+	.icon-username{
+		left: -86px;
+	}
+
+	.icon-pass{
+		left: -86px;
+	}
+
+	.icon-eye{
+		left: 74px;
+	}
+
+	/*.dropdown-menu {
+	    left: -16vw;
+	}*/
+
+	.dropdown-menu-filter-report{
+		left: 0px !important;
+	    top: 151px;
+	}
+
+	.dropdown-menu-filter-end-user{
+		left: 0px !important;
+	    top: 106px;
+	}
+
+	.dropdown-menu-filter-merchant{
+		left: 0vw !important;
+		top: 106px;
+	}
+
+	.dropdown-menu-filter-rekap {
+	    left: 15px;
+	    top: 104px;
+	}
+
+	.dropdown-menu-filter-saldo{
+		left: 15px;
+	    top: 104px;	
+	}
+
+	.dropdown-menu-filter-promo{
+	    left: -2px;
+	    top: 0px;
+	    z-index: 99999;
+	}
+
+	.btn-filter-promo{
+		left: 0px;
+		top: -32px !important
+	}
+
+	.btn-plus-promo{
+		top: 42px;
+		float: none !important;
+		left: 0px !important;
+		z-index: 999;
+	}
+
+	.col-global{
+		margin-top: 15px;
+	    padding-left: 0px !important;
+	}
+
+	.btn-filter-promo-merchant{
+		left: 0px;
+		top: 0px !important;
+	}
+
+
+	.dropdown-menu-filter-point{
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.dropdown-menu-filter-promo-merchant {
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.icon-info-promo{
+		margin-left: -13px;
+	    left: 15px;
+	}
+
+	.btn-filter-faq{
+	    left: 0px;
+	    top: 3px !important;
+	}
+
+	.dropdown-menu-filter-faq{
+		left: -2px;
+	    top: 58px;
+	}
+
+	.btn-plus-faq{
+		z-index: 99999;
+	}
+
+	.dropdown-menu-filter-tac {
+	    left: -2px;
+	    top: 132px;
+	}
+
+	.sidebar .nav {
+	    margin-top: 14px;
+	}
+
+	.modal-detail-merchant{
+	    width: 95%;
+	}
+
+	.row-left{
+	    display: block;
+	}
+
+	.nav-report>li {
+	    margin-bottom: 1px;
+	}
+
+	/*.btn-filter-report{
+	    right: 0px;
+	}*/
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 64%;
+	}
+
+	.filter-form img{
+	    right: 54px;
+	    top: 5px;
+	}
+
+	.filter-form input{
+		width: 90%;
+	}
+
+	.img-logo {
+	    left: 15px;
+	}
+
+	.modal-user-merchant-image{
+	    height: 23%;
+	    right: 50px;
+	    margin-bottom: 50px;
+	}
+
+	.modal-user-merchant-label{
+	    top: 76px;
+	    left: 95px;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	.dropdown-menu-filter-withdraw{
+	    left: 0px !important;
+	    top: 106px;
+	}
+
+	.form-edit-produk .form-button-save{
+		left: 45px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 45px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+}
+
+/* Smartphones (landscape) ----------- */
+@media only screen 
+and (min-device-width : 1205px)
+and (max-device-width: 1223px) {
+/* Styles */
+	.login-left{
+		padding-right:15px;
+	}
+	.login-logo-wrapper{
+		padding:20px;
+	}
+
+	.login-wrapper .left{
+		    border-radius: 4px 4px 0px 0px
+	}
+
+	.carousel {
+	    height: 477px;
+	}
+
+	.g-recaptcha iframe{
+		position: relative;
+	    left: -21px;
+	}
+
+	.carousel-inner h3 {
+		margin: 8% 0% 0% auto;
+	}
+
+	.vl {
+		left: 549px;
+	}
+
+	.sidebar .nav {
+	    margin-top: 14px;
+	}
+
+}
+
+/* Smartphones (portrait) ----------- */
+@media only screen 
+and (min-device-width : 411px)
+and (max-device-width : 413px) {
+/* Styles */
+	.login-left{
+		padding-right:15px;
+	}
+	.login-logo-wrapper{
+		padding:20px;
+	}
+
+	.login-wrapper .left{
+		    border-radius: 4px 4px 0px 0px
+	}
+
+	body{
+		background-size: auto 100%;
+	}
+
+	.g-recaptcha iframe{
+	    left: 6px;
+	}
+	
+	.col-dash-right{
+		border-left: none;
+	}
+
+	.icon-eye{
+		left: 88px;
+	}
+
+	/*.dropdown-menu {
+	    left: -14vw;
+	}*/
+
+	.dropdown-menu-filter-report{
+		left: 0px !important;
+	    top: 106px;
+	}
+
+	.dropdown-menu-filter-end-user{
+		left: 0px !important;
+	    top: 106px;
+	}
+
+	.dropdown-menu-filter-merchant{
+		left: 0vw !important;
+		top: 106px;
+	}
+
+	.dropdown-menu-filter-rekap {
+	    left: 15px;
+	    top: 104px;
+	}
+
+	.dropdown-menu-filter-saldo{
+		left: 15px;
+	    top: 104px;	
+	}
+
+	.dropdown-menu-filter-promo{
+	    left: -2px;
+	    top: 0px;
+	    z-index: 99999;
+	}
+
+	.btn-filter-promo{
+		left: 0px;
+		top: -32px !important
+	}
+
+	.btn-plus-promo{
+		top: 42px;
+		float: none !important;
+		left: 0px !important;
+		z-index: 999;
+	}
+
+	.col-global{
+		margin-top: 15px;
+	    padding-left: 0px !important;
+	}
+
+	.btn-filter-promo-merchant{
+		left: 0px;
+		top: 0px !important;
+	}
+
+
+	.dropdown-menu-filter-point{
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.dropdown-menu-filter-promo-merchant {
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.btn-filter-faq{
+        left: -115px;
+	    top: 24px !important;
+	}
+
+	.dropdown-menu-filter-faq{
+		left: -2px;
+	    top: 57px;
+	}
+
+	.btn-plus-faq{
+		float: none !important;
+		z-index: 99999;
+	}
+
+	.dropdown-menu-filter-tac {
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.modal-detail-merchant{
+	    width: 95%;
+	}
+
+	.row-left{
+	    display: block;
+	}
+
+	.nav-report>li {
+	    margin-bottom: 1px;
+	}
+
+	/*.btn-filter-report{
+	    right: 0px;
+	}*/
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 55%;
+	}
+
+	.filter-form img{
+	    right: 54px;
+	    top: 5px;
+	}
+
+	.filter-form input{
+		width: 90%;
+	}
+
+	.icon-pass{
+		left: -96px;
+	}
+
+	.img-logo {
+	    left: 15px;
+	}
+
+	.modal-user-merchant-image{
+	    height: 23%;
+	    right: 50px;
+	    margin-bottom: 50px;
+	}
+
+	.modal-user-merchant-label{
+		top: 90px;
+    	left: 109px;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	.dropdown-menu-filter-withdraw{
+	    left: 0px !important;
+	    top: 106px;
+	}
+
+	.form-edit-produk .form-button-save{
+		left: 45px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 45px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-device-width : 414px) 
+and (max-device-width : 767px) {
+/* Styles */
+	.carousel {
+    	height: 286px;
+	}
+
+	.carousel-inner h3 {
+		margin: 5% 0% 0% auto;
+	}
+
+	.col-dash-right{
+		border-left: none;
+	}
+
+	/*.dropdown-menu {
+	    left: -14vw;
+	}*/
+
+	.dropdown-menu-filter-report{
+		left: 0px !important;
+	    top: 106px;
+	}
+
+	.dropdown-menu-filter-end-user{
+		left: 0px !important;
+	    top: 106px;
+	}
+
+	.dropdown-menu-filter-merchant{
+		left: 0vw !important;
+		top: 106px;
+	}
+
+	.dropdown-menu-filter-rekap {
+	    left: 15px;
+	    top: 104px;
+	}
+
+	.dropdown-menu-filter-saldo {
+	    left: 15px;
+	    top: 104px;
+	}
+
+	.dropdown-menu-filter-promo{
+	    left: -2px;
+	    top: 0px;
+	    z-index: 99999;
+	}
+
+	.btn-filter-promo{
+		left: 0px;
+		top: -32px !important
+	}
+
+	.btn-plus-promo{
+		top: 42px;
+		float: none !important;
+		left: 0px !important;
+		z-index: 999;
+	}
+
+	.col-global{
+		margin-top: 15px;
+	    padding-left: 0px !important;
+	}
+
+	.btn-filter-promo-merchant{
+		left: 0px;
+		top: 0px !important;
+	}
+
+
+	.dropdown-menu-filter-point{
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.dropdown-menu-filter-promo-merchant {
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.btn-filter-faq{
+	    left: -116px;
+	    top: 23px !important;
+	}
+
+	.dropdown-menu-filter-faq{
+		left: -2px;
+	    top: 57px;
+	}
+
+	.btn-plus-faq{
+		z-index: 99999;
+		float: none;
+	}
+
+	.dropdown-menu-filter-tac {
+	    left: -2px;
+	    top: 87px;
+	}
+
+	.table-faq{
+		margin-top: 35px;
+	}
+
+	.modal-detail-merchant{
+	    width: 95%;
+	}
+
+	.row-left{
+	    display: block;
+	}
+
+	.nav-report>li {
+	    margin-bottom: 1px;
+	}
+
+	/*.btn-filter-report{
+	    right: 0px;
+	}*/
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 55%;
+	}
+
+	.filter-form img{
+	    right: 54px;
+	    top: 5px;
+	}
+
+	.filter-form input{
+		width: 90%;
+	}
+
+	.icon-pass{
+		left: -96px;
+	}
+
+	.img-logo {
+	    left: 15px;
+	}
+
+	.modal-user-merchant-image{
+	    height: 23%;
+	    right: 50px;
+	    margin-bottom: 50px;
+	}
+
+	.modal-user-merchant-label{
+		left: 110px;
+	    top: 90px;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	.dropdown-menu-filter-withdraw{
+	    left: 0px !important;
+	    top: 106px;
+	}
+
+	.form-edit-produk .form-button-save{
+		left: 45px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 45px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+}
+
+/* iPads (landscape) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) 
+and (orientation : landscape) {
+/* Styles */
+	.login-left{
+		padding-right:15px;
+	}
+	.login-logo-wrapper{
+		padding:83px;
+	}
+
+	.login-wrapper .left{
+	    border-radius: 4px 0px 0px 4px;
+	}
+
+	.carousel {
+    	height: 216px;
+    }
+
+	.g-recaptcha iframe{
+	    left: -73px;
+    	position: relative;
+	}
+
+	.g-recaptcha iframe {
+	    transform: scale(0.7);
+	}
+
+	.icon-username{
+		left: -58px;
+	}
+
+	.icon-pass{
+		left: -58px;
+	}
+
+	body{
+		background-size: auto 100%;
+	}
+
+	.login-form{
+		width: 100%;
+	}
+
+	.icon-username{
+		left: -75px;
+	}
+
+	.icon-pass{
+		left: -59px;
+	}
+
+	.icon-eye{
+		left: 60px;
+	}
+	
+	/*.btn-filter-report{
+	    right: 0px;
+	}*/
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 29%;
+	}
+
+	.filter-form img{
+	    right: 62px;
+	    top: 5px;
+	}
+
+	.filter-form input{
+		width: 90%;
+	}
+
+	.img-logo {
+	    left: 15px;
+	}
+
+	.modal-user-merchant-image{
+	    height: 23%;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.form-edit-produk label{
+		top: 313px;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	/*.dropdown-menu-filter-withdraw{
+	    left: 0px !important;
+	    top: 151px;
+	}*/
+
+	.modal-dialog-detail-produk{
+	    margin-left: auto;
+	}
+
+	.form-check-label {
+	    top: 0px !important;
+	}	
+
+	.form-edit-produk .form-button-save{
+		left: 90px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 90px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+
+	.setting-btn-logout{
+		top: 0px;
+	}	
+}
+
+/* iPads (portrait) ----------- */
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1023px) 
+and (orientation : portrait) {
+/* Styles */
+	.login-left{
+		padding-right:15px;
+	}
+	.login-logo-wrapper{
+		padding:83px 20px;
+	}
+
+	.login-wrapper .left{
+		    border-radius: 4px 0px 0px 4px
+	}
+
+	.carousel {
+    	height: 374px;
+    }
+
+	.g-recaptcha iframe{
+	    left: -73px;
+    	position: relative;
+	}
+
+	.g-recaptcha iframe {
+	    transform: scale(0.7);
+	}
+
+	.icon-username{
+		left: -58px;
+	}
+
+	.icon-pass{
+		left: -58px;
+	}
+
+	body{
+		background-size: auto 100%;
+	}
+
+	.btn-filter-report{
+	    right: 0px;
+	}
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 26%;
+	}
+
+	.modal-user-merchant-image{
+	    height: 23%;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.form-edit-produk label{
+		top: 313px;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	/*.dropdown-menu-filter-withdraw{
+	    left: 0vw;
+	    top: 34px;
+	}*/
+
+	.modal-dialog-detail-produk{
+	    margin-left: auto;
+	}
+
+	.form-check-label {
+	    top: 0px !important;
+	}
+
+	.form-edit-produk .form-button-save{
+		left: 90px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 90px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+
+	.setting-btn-logout{
+		top: 0px;
+	}			
+
+}
+
+@media only screen 
+and (min-device-width : 1024px) 
+and (max-device-width : 1204px) {
+	.carousel {
+    	height: 465px;
+    }
+
+    .g-recaptcha iframe{
+	    left: -23px;
+    	position: relative;
+	}
+
+	.modal-end-user-image {
+	    height: 14%;
+	}
+
+	.btn-filter-report{
+	    right: 0px;
+	}
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 29%;
+	}
+
+	.filter-form img{
+	    right: 62px;
+	    top: 5px;
+	}
+
+	.filter-form input{
+		width: 90%;
+	}
+
+	.icon-username{
+		left: -78px;
+	}
+
+	.main-panel{
+		width: calc(100% - 260px);
+	}
+
+	.sidebar{
+		width: 260px;
+	}
+
+	.sidebar .sidebar-wrapper{
+		width: 260px;
+	}
+
+	.img-logo {
+	    top: 26px;
+	}
+
+	.modal-user-merchant-image{
+	    height: 23%;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.form-edit-produk label{
+		top: 420px;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	/*.dropdown-menu-filter-withdraw{
+	    left: 0vw;
+	    top: 34px;
+	}*/
+
+	.modal-dialog-detail-produk{
+	    margin-left: auto;
+	}
+
+	.form-check-label {
+	    top: 0px !important;
+	}
+
+	.form-edit-produk .form-button-save{
+		left: 90px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 90px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+
+	.img-navbar-small{
+		display: none;
+	}
+
+	.fa-logout-small{
+		display: none !important;
+	}	
+
+	.setting-btn-logout{
+		top: 0px;
+	}
+
+	.form-12 {
+	    margin-left: 0px!important; 
+	    width: 100% !important;
+	}
+
+	.form-kelurahan{
+		margin-left: 0px !important;
+	}		
+}
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 359px) {
+
+	.carousel {
+    	height: 216px;
+    }
+
+    .carousel-inner h3 {
+		margin: 2% 0% 0% auto;
+		font-size: 18px;
+	}
+
+	.g-recaptcha iframe{
+	    position: relative;
+	    left: -25px;
+	    transform: scale(0.8);
+	}
+
+	.icon-username{
+		left: -73px;
+	}
+
+	.icon-pass{
+		left: -73px;
+	}
+
+	.icon-eye{
+		left: 59px
+	}
+
+	.dashboard-span-graph {
+	    bottom: 34px;
+	    right: 81px;
+	}
+
+	.dropdown-dash{
+		left: 87px;
+		bottom: 43px;
+	}
+
+	/*.dropdown-menu {
+	    left: -19vw;
+	}*/
+
+	.dropdown-menu-filter-report{
+		left: 0px !important;
+	    top: 151px;
+	}
+
+	.dropdown-menu-filter-end-user{
+		left: 0px !important;
+	    top: 151px;
+	}
+
+	.dropdown-menu-filter-merchant{
+		left: 0vw !important;
+		top: 151px;
+	}
+
+	.dropdown-menu-filter-rekap {
+	    left: 15px;
+	    top: 149px;
+	}
+
+	.dropdown-menu-filter-saldo {
+	    left: 15px;
+	    top: 149px;
+	}
+
+	.dropdown-menu-filter-promo{
+	    left: -2px;
+	    top: 0px;
+	    z-index: 99999;
+	}
+
+	.btn-filter-promo{
+		left: 0px;
+		top: -32px !important
+	}
+
+	.btn-plus-promo{
+		top: 42px;
+		float: none !important;
+		left: 0px !important;
+		z-index: 999;
+	}
+
+	.col-global{
+		margin-top: 15px;
+	    padding-left: 0px !important;
+	}
+
+	.btn-filter-promo-merchant{
+		left: 0px;
+		top: 0px !important;
+	}
+
+
+	.dropdown-menu-filter-point{
+	    left: -2px;
+	    top: 132px;
+	}
+
+	.dropdown-menu-filter-promo-merchant {
+	    left: -2px;
+	    top: 132px;
+	}
+
+	.icon-info-promo{
+	    top: 39px;
+	    margin-left: -47px;
+	}
+
+	.btn-filter-faq{
+	    left: 0px;
+	    top: -25px !important;
+	}
+
+	.dropdown-menu-filter-faq{
+		left: -2px;
+	    top: 94px;
+	}
+
+	.btn-plus-faq{
+		top: -39px !important;
+		z-index: 99999;
+		left: 34px;
+	}
+
+	.dropdown-menu-filter-tac {
+	    left: -2px;
+	    top: 132px;
+	}
+
+	.table-faq{
+		margin-top: 0px;
+	}
+
+	.modal-detail-merchant{
+	    width: 95%;
+	}
+
+	.row-left{
+	    display: block;
+	}
+
+	.nav-report>li {
+	    float: none;
+	    margin-bottom: 1px;
+	    text-align: center;
+	}
+
+	.col-dash-right{
+		border-left: none;
+	}
+
+	.btn-filter-report{
+	    left: 0px;
+	}
+
+	.btn-filter-merchant{
+	    right: 0px;
+	}
+
+	#divStatus{
+		margin-bottom: 10px;
+	}
+
+	.card-dashboard{
+		width: 61%;
+	}
+
+	.filter-form img{
+	    right: 54px;
+	    top: 5px;
+	}
+
+	.filter-form input{
+		width: 90%;
+	}
+
+	.img-logo {
+	    left: 15px;
+	}
+
+	.modal-user-merchant-image{
+	    height: auto;
+	    right: 63px;
+	    margin-bottom: 50px;
+	}
+
+	.modal-user-merchant-label{
+		top: 67px;
+	    left: 73px;
+	}
+
+	.modal-produk-col-right{
+		top: 0vh;
+		border-top-left-radius: 20px;
+		border-bottom-left-radius: 20px;
+	}
+
+	.modal-dialog-tambah-produk {
+	    width: auto;
+	}
+
+	.form-edit-produk label{
+		top: 158px;
+	}
+
+	.btn-filter-withdraw{
+	    right: 0px;
+	    top: 0px;
+	}
+
+	.dropdown-menu-filter-withdraw{
+	    left: 0px !important;
+	    top: 151px;
+	}
+
+	.form-check-label {
+	    top: 0px !important;
+	}
+
+	.form-edit-produk .form-button-save{
+		left: 40px;
+	}
+
+	.form-edit-produk .form-button-delete{
+		right: 40px;
+	}
+
+	.img-detail-merchant {
+	    left: 35px;
+	}
+}
+
+/* Desktops and laptops ----------- */
+@media only screen 
+and (min-width : 1224px) {
+	.login-left{
+		padding-right:0px;
+	}
+	.login-logo-wrapper{
+		padding:40px;
+	}
+
+	.login-wrapper .left{
+		    border-radius: 4px 0px 0px 4px
+	}
+/* Styles */
+}
+
+@media only screen
+and (min-device-width: 320px)
+and (max-device-width: 800px){
+	.main-panel{
+		width: 100%;
+	}
+
+	.sidebar{
+		width: 260px;
+	}
+
+	.sidebar .sidebar-wrapper{
+		width: 260px;
+	}
+
+	.modal-dialog-detail-produk{
+	    margin-left: auto;
+	}
+
+	.carousel-indicators{
+		bottom: -13px;
+	}
+
+	.modal-dialog-detail-produk {
+	    width: auto;
+	}
+
+	.p-navbar-right{
+		margin-top: -42px !important;
+		margin-right: 20px !important;
+	}
+
+	.span-navbar-right{
+	    position: relative;
+	    float: left;
+	    top: 12px;
+	    margin-top: 13px;
+	}
+
+	.form-12 {
+	     margin-left: 0px!important; 
+	    width: 100% !important;
+	}
+
+	.form-kelurahan{
+		margin-left: 0px !important;
+	}
+}
+
+/*@media only screen 
+and (min-device-width: 1536px){
+	.btn-filter-report {
+	    right: 70px;
+	}
+}*/
+
+@media only screen
+and (min-device-width: 1680px){
+	.login-wrapper{
+		margin-top: 10%;
+	}
+
+	.carousel{
+		height: 75vh;
+	}
+
+	/*.btn-filter-end-user{
+		right: 188px;
+	}
+
+	.btn-filter-report {
+	    right: 145px;
+	}
+
+	.dropdown-menu-filter-report {
+	    left: -8vw;
+	}
+
+	.dropdown-menu-filter-end-user {
+	    left: -10vw !important;
+	}
+
+	.btn-filter-withdraw {
+	    right: 280px;
+	}*/
+
+	.modal-user-merchant-image {
+	    height: 28%;
+	}
+
+	.modal-user-merchant-image-detail{
+	    height: 30%;
+	}
+
+	.modal-setting-image{
+		height: 30%;
+	}
+
+	.text-error {
+	    position: relative;
+	    bottom: 45px;
+	}
+
+	.text-error-edit-produk {
+	    position: relative;
+	    bottom: 32px;
+	}
+
+	.modal-end-user-image {
+	    height: 18%;
+	}
+
+}
+
+@media screen and (max-width: 767px){
+	.table-responsive-support {
+	     border: none !important; 
+	}
+	.btn-filter-report{
+		margin-bottom: 35px !important;
+		left: 0px;
+	}
+	.btn-filter-end-user{
+		margin-bottom: 35px !important;
+		left: 0px;
+	}
+	.card-transaction-total{
+		float: none !important;
+	}
+
+	.table-kasir{
+	    border: 1px solid #3472F7 !important;
+	}
+
+	.responsive-kasir{
+		border:none !important;
+	}
+
+}

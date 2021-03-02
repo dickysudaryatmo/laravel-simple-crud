@@ -1,0 +1,129 @@
+/*LOADING OVERLAY*/
+#loading-overlay{
+    display: none;
+  }
+  
+  #loading-overlay.active{
+    display: block;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    z-index: 99999;
+    background: #00000096;
+    padding-top: 20%;
+  }
+  .loader {
+    margin: 7px auto;
+    border: 10px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 10px solid #4e73df;
+    width: 100px;
+    height: 100px;
+    -webkit-animation: spin 1s linear infinite; /* Safari */
+    animation: spin 1s linear infinite;
+  }
+  
+  @-webkit-keyframes spin {
+    0% { -webkit-transform: rotate(0deg); }
+    100% { -webkit-transform: rotate(360deg); }
+  }
+  
+  @keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+.modal-open {
+    overflow: hidden;
+}
+  
+.modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.error {
+    color: red;
+    font-weight: 400 !important;
+}
+.login-page.swal2-shown.swal2-height-auto {
+    margin-top: 10%;
+}
+.modal-input-size {
+    min-width: 730px;
+}
+.modal-input-size .modal-body {
+    overflow: hidden;
+    height: 510px;
+    overflow-y: scroll;
+}
+
+.select2-container {
+	width: 100% !important;
+}
+.select2-container--default .select2-selection--single {
+	height: 37px;
+}
+.select2-container .select2-selection--single .select2-selection__rendered {
+	font-size: 14px;
+    padding: 3px 14px;
+    height: calc(2.25rem + 2px);
+    color: #495057;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+.select2-container--default .select2-selection--single .select2-selection__arrow {
+	top: 5px;
+    right: 12px;
+}
+
+.action-table {
+    display: flex;
+    white-space: nowrap;
+    align-items: center;
+    justify-content: center;
+}
+.action-table a {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.show-password {
+    cursor: pointer;
+}
+/* Custom CSS DICKY Start */
+.margin-right-10 {
+    margin-right: 10px;
+}
+/* Custom CSS DICKY End */
+
+.kolom-periksa {
+    background: #ffc75e;
+}
+.kolom-ganti {
+    background: #fa7070;
+}
+
+.tabel-service {
+    border: 1px solid #383838;
+}
+.tabel-service thead th {
+    border: 1px solid #383838;
+}
+.tabel-service th {
+    border: 1px solid #383838;
+}
+.tabel-service td {
+    border: 1px solid #383838;
+}
+
+.right {
+    float: right;
+}
+
+.disabled {
+    pointer-events: none;
+    cursor: default;
+}
